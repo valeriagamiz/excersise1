@@ -34,22 +34,6 @@ figure{
     margin: 0rem;
     position: relative;
 }
-figcaption{
-    margin-bottom: 0;
-    margin-top: -7rem;
-    padding: 2rem; 
-    float: inherit;
-    position: absolute;
-    
-    color: white; 
-}
-p1{
-    margin: .5rem;
-    padding: .5rem;
-    float: left;
-    color: red; 
-}
-
 h1{
     margin: .5rem;
     padding: .5rem;
@@ -64,7 +48,29 @@ div{
 h2{
      float:left;
     clear: left;
+    color: grey;
+    font-size: 1rem;
 }
+
+.graphic{
+    margin: 0;
+    padding:0;
+}
+.dinocaption{
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    position: absolute;
+    bottom: 1px;
+    right:15px;
+}
+
+figcaption{
+    margin-bottom: 0;
+    margin-top: -7rem;
+    padding: 2rem; 
+    float: inherit;
+    position: absolute;
+    
 
 
     
