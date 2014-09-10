@@ -23,6 +23,12 @@ html {
 body {
   margin: 0;
   padding: 0;
+    background-color: lightgrey;
+}
+
+.dino{
+    overflow: hidden;
+    background-color: #fff;
 }
 
 img {
@@ -59,12 +65,10 @@ h1{
 
 div{
     overflow: hidden;
-    border-right: : 1px solid black;
+    border-right: 1px solid black;
 }
 
 h2{
-     float:left;
-    clear: left;
     color: grey;
     font-size: 1rem;
 }
@@ -73,8 +77,11 @@ h2{
     float: left;
     padding: 1rem; 
     width: 33.3333%;
+    border-right: 1px solid #CCC0;
 }
 
+
+    
 
     
 
